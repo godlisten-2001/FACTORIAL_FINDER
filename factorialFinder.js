@@ -5,8 +5,8 @@ const factorialFinderRecursive = (n) =>{
     factorial *= n*factorialFinderRecursive(n-1);
     return factorial;
 }
-// factorialFinderRecursive(4);
-// console.log(factorial);
+factorialFinderRecursive(4);
+console.log(factorial);
 
 
 
